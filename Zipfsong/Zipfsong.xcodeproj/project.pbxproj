@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B54228BB187102D300AD0F65 /* Zipfsong.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B54228BA187102D300AD0F65 /* Zipfsong.1 */; };
-		B54228CA1871032500AD0F65 /* Kattio.java in Sources */ = {isa = PBXBuildFile; fileRef = B54228C31871032500AD0F65 /* Kattio.java */; };
-		B54228CB1871032500AD0F65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B54228C51871032500AD0F65 /* main.cpp */; };
-		B54228CC1871032500AD0F65 /* Zipfsong.java in Sources */ = {isa = PBXBuildFile; fileRef = B54228C91871032500AD0F65 /* Zipfsong.java */; };
+		B54228D81871041200AD0F65 /* Kattio.java in Sources */ = {isa = PBXBuildFile; fileRef = B54228CF1871041200AD0F65 /* Kattio.java */; };
+		B54228D91871041200AD0F65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B54228D11871041200AD0F65 /* main.cpp */; };
+		B54228DA1871041200AD0F65 /* Zipfsong.java in Sources */ = {isa = PBXBuildFile; fileRef = B54228D61871041200AD0F65 /* Zipfsong.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +19,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				B54228BB187102D300AD0F65 /* Zipfsong.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -28,16 +26,17 @@
 
 /* Begin PBXFileReference section */
 		B54228B5187102D300AD0F65 /* Zipfsong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Zipfsong; sourceTree = BUILT_PRODUCTS_DIR; };
-		B54228BA187102D300AD0F65 /* Zipfsong.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Zipfsong.1; sourceTree = "<group>"; };
-		B54228C11871032500AD0F65 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input.txt; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/input.txt"; sourceTree = "<group>"; };
-		B54228C21871032500AD0F65 /* Kattio.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; name = Kattio.class; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/Kattio.class"; sourceTree = "<group>"; };
-		B54228C31871032500AD0F65 /* Kattio.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Kattio.java; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/Kattio.java"; sourceTree = "<group>"; };
-		B54228C41871032500AD0F65 /* longTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = longTest.txt; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/longTest.txt"; sourceTree = "<group>"; };
-		B54228C51871032500AD0F65 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/main.cpp"; sourceTree = "<group>"; };
-		B54228C61871032500AD0F65 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.txt; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/test.txt"; sourceTree = "<group>"; };
-		B54228C71871032500AD0F65 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test2.txt; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/test2.txt"; sourceTree = "<group>"; };
-		B54228C81871032500AD0F65 /* test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test3.txt; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/test3.txt"; sourceTree = "<group>"; };
-		B54228C91871032500AD0F65 /* Zipfsong.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Zipfsong.java; path = "../../../../../Google Drive/Code Challenge/Spotify/Zipfsong/Zipfsong.java"; sourceTree = "<group>"; };
+		B54228CD1871041200AD0F65 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		B54228CE1871041200AD0F65 /* Kattio.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Kattio.class; sourceTree = "<group>"; };
+		B54228CF1871041200AD0F65 /* Kattio.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Kattio.java; sourceTree = "<group>"; };
+		B54228D01871041200AD0F65 /* longTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = longTest.txt; sourceTree = "<group>"; };
+		B54228D11871041200AD0F65 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B54228D21871041200AD0F65 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		B54228D31871041200AD0F65 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		B54228D41871041200AD0F65 /* test3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.txt; sourceTree = "<group>"; };
+		B54228D51871041200AD0F65 /* Zipfsong.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = Zipfsong.1; sourceTree = "<group>"; };
+		B54228D61871041200AD0F65 /* Zipfsong.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Zipfsong.java; sourceTree = "<group>"; };
+		B54228D71871041200AD0F65 /* Zipfsong$Song.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Zipfsong$Song.class; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,16 +69,17 @@
 		B54228B7187102D300AD0F65 /* Zipfsong */ = {
 			isa = PBXGroup;
 			children = (
-				B54228C11871032500AD0F65 /* input.txt */,
-				B54228C21871032500AD0F65 /* Kattio.class */,
-				B54228C31871032500AD0F65 /* Kattio.java */,
-				B54228C41871032500AD0F65 /* longTest.txt */,
-				B54228C51871032500AD0F65 /* main.cpp */,
-				B54228C61871032500AD0F65 /* test.txt */,
-				B54228C71871032500AD0F65 /* test2.txt */,
-				B54228C81871032500AD0F65 /* test3.txt */,
-				B54228C91871032500AD0F65 /* Zipfsong.java */,
-				B54228BA187102D300AD0F65 /* Zipfsong.1 */,
+				B54228CD1871041200AD0F65 /* input.txt */,
+				B54228CE1871041200AD0F65 /* Kattio.class */,
+				B54228CF1871041200AD0F65 /* Kattio.java */,
+				B54228D01871041200AD0F65 /* longTest.txt */,
+				B54228D11871041200AD0F65 /* main.cpp */,
+				B54228D21871041200AD0F65 /* test.txt */,
+				B54228D31871041200AD0F65 /* test2.txt */,
+				B54228D41871041200AD0F65 /* test3.txt */,
+				B54228D51871041200AD0F65 /* Zipfsong.1 */,
+				B54228D61871041200AD0F65 /* Zipfsong.java */,
+				B54228D71871041200AD0F65 /* Zipfsong$Song.class */,
 			);
 			path = Zipfsong;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B54228CC1871032500AD0F65 /* Zipfsong.java in Sources */,
-				B54228CA1871032500AD0F65 /* Kattio.java in Sources */,
-				B54228CB1871032500AD0F65 /* main.cpp in Sources */,
+				B54228DA1871041200AD0F65 /* Zipfsong.java in Sources */,
+				B54228D91871041200AD0F65 /* main.cpp in Sources */,
+				B54228D81871041200AD0F65 /* Kattio.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
